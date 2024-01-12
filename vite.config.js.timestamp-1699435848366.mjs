@@ -3,6 +3,7 @@ import { defineConfig } from "file:///home/runner/e-commerce/node_modules/vite/d
 import react from "file:///home/runner/e-commerce/node_modules/@vitejs/plugin-react/dist/index.mjs";
 var vite_config_default = defineConfig({
   plugins: [react()],
+  base: "/e-commerce",
   server: {
     host: "0.0.0.0"
   }
